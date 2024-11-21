@@ -1,0 +1,13 @@
+###CADASTRAR NOVO CLIENTE
+POST  http://localhost:5278/api/cliente/cadastrar
+Content-Type: application/json
+
+{
+    "Nome":"TEsteTeste",
+    "CPF": "1112123123"
+}
+###VER TODOS OS CLIENTES CADASTRADOS
+GET http://localhost:5278/api/cliente/listarTudo
+
+###BUSCAR CLIENTE
+GET http://localhost:5278/api/cliente/buscar/id:7

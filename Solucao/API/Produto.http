@@ -1,0 +1,14 @@
+###CADASTRAR NOVO PRODUTO
+POST  http://localhost:5278/api/produto/cadastrar
+Content-Type: application/json
+
+{
+    "Descricao":"Porsche",
+    "Valor": 10000000
+}
+
+###LISTAR TODOS OS PRODUTOS
+GET  http://localhost:5278/api/produto/listarTudo
+
+###BUSCAR UM PRODUTO
+GET  http://localhost:5278/api/produto/buscar/id:1
